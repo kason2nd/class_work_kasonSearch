@@ -40,7 +40,7 @@ public class SmsReciver extends BroadcastReceiver {
 	                	int in= Integer.valueOf(s[1]);
 	                	xy=s[2].split(",");
 	                	ma .placeFriendIcon(Double.valueOf(xy[0]),Double.valueOf(xy[1]),in);
-	                	Toast.makeText(context, sender + "," + content, Toast.LENGTH_LONG).show();
+//	                	Toast.makeText(context, sender + "," + content, Toast.LENGTH_LONG).show();
                 	}
                 	
                 	

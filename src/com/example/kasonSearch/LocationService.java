@@ -59,7 +59,6 @@ public class LocationService {
 			mOption = new LocationClientOption();
 			mOption.setLocationMode(LocationMode.Hight_Accuracy);
 			mOption.setCoorType("bd09ll");
-			mOption.setOpenAutoNotifyMode(10, 3000,  LocationClientOption.LOC_SENSITIVITY_HIGHT);
 		    mOption.setIsNeedAddress(true);
 		    mOption.setNeedDeviceDirect(false);
 		    mOption.setIgnoreKillProcess(true);
